@@ -1,0 +1,50 @@
+@import '../../constants';
+
+#welcomeContainer {
+  flex: 1 1 auto;
+  width: 100%;
+  @include display-flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+
+  #welcomeTextContainer {
+    width: 220px;
+    p {
+      font-family: $font-family-base;
+      font-size: $font-size-large;
+      font-weight: 300;
+      line-height: 1.4em;
+      text-align: center;
+      color: $white;
+    }
+  }
+
+  .fieldContainer {
+    width: 80%;
+    display: flex;
+
+    input{
+      flex: 1 0 auto;
+      border: none;
+      font-size: $font-size-medium;
+      font-family: $font-family-base;
+      line-height: 1;
+      padding: 0.8em 0.1em;
+      text-align: center;
+    }
+
+    input:focus{
+      outline: none;
+    }
+
+    @include placeholder {
+      font-style:italic;
+    }
+  }
+
+  #buttonContainer {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+}

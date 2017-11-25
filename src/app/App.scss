@@ -1,0 +1,12 @@
+@import '../constants';
+
+#app {
+  @include display-flex;
+  padding: 0;
+  background-color: $red;
+  height: 100vh; // For 100% screen height
+  width:  100vw; // For 100% screen width
+  overflow: hidden;
+  flex-flow: column nowrap;
+  align-items: center;
+}

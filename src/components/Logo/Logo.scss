@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+.logoContainer {
+	position: relative;
+	text-align: center;
+	margin-top: 16px;
+	.logoHeader {
+		font-family: 'Cookie', cursive;
+		font-size: 46px;
+		color: white;
+		letter-spacing: 2.0px;
+		font-weight: 300;
+		padding-top: 16px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+}

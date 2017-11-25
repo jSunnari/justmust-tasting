@@ -1,0 +1,27 @@
+@import '../../constants';
+
+#passageContainer {
+  flex: 1 1 auto;
+  width: 100%;
+  @include display-flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+
+  #passageTextContainer {
+    width: 220px;
+    p {
+      font-family: $font-family-base;
+      font-size: $font-size-large;
+      font-weight: 300;
+      line-height: 1.4em;
+      text-align: center;
+      color: $white;
+    }
+  }
+
+  #buttonContainer {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+}
