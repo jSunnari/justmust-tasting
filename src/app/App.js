@@ -7,12 +7,12 @@ import './App.scss';
 
 class App extends Component {
   render() {
-    let headerLabel = "Julmustprovning"
+    let headerLabel = "Julmustprovning";
     return (
       <BrowserRouter>
         <div id="app">
           <Logo className="logo" headerLabel={headerLabel}/>
-          <Route exact path="/" component={Welcome} />
+          <Route exact path="/" component={Welcome}/>
           <Route path="/passage" component={Passage} />
         </div>
       </BrowserRouter>
