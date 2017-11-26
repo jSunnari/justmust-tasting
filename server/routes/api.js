@@ -1,5 +1,4 @@
-"use strict";
-
+let path = require('path');
 require("console-stamp")(console, { pattern: "yyyy/mm/dd HH:MM:ss" });
 
 let express = require('express');

@@ -1,9 +1,4 @@
-"use strict";
-
-//Dependencies:
 let path = require('path');
-let fs = require('fs');
-let https = require('https');
 let express = require('express');
 let mongoose = require('mongoose');
 let bodyParser = require('body-parser');
