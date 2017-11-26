@@ -48,7 +48,6 @@ class ServerCommunication {
       });
     });
   }
-
 }
 
 export let serverCommunication = new ServerCommunication();
